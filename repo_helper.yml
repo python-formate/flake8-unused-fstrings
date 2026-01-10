@@ -1,0 +1,34 @@
+# Configuration for 'repo_helper' (https://github.com/repo-helper/repo_helper)
+---
+modname: 'flake8-unused-fstrings'
+copyright_years: '2019-2020'
+author: 'adam hitchcock'
+email: 'adam+python@northisup.com'
+username: 'python-formate'
+assignee: 'domdfcoding'
+version: '1.0.1'
+license: 'ISCL'
+short_desc: 'Flake8 plugin to catch f-strings with no fields. '
+
+enable_conda: false
+enable_docs: false
+on_pypi: false
+
+python_versions:
+ - 3.8
+ - 3.9
+ - 3.10
+ - 3.11
+ - 3.12
+ - 3.13
+
+classifiers:
+  - 'Development Status :: 5 - Production/Stable'
+  - 'Framework :: Flake8'
+  - 'Intended Audience :: Developers'
+  - 'License :: OSI Approved :: ISC License (ISCL)'
+  - 'Natural Language :: English'
+
+entry_points:
+  flake8.extension:
+   - NUF=flake8_unused_fstrings:Plugin
