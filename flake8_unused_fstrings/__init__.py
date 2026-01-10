@@ -19,7 +19,7 @@ import flake8_helper
 __author__: str = "adam hitchcock"
 __copyright__: str = "2019-2020 adam hitchcock"
 __license__: str = "ISC License (ISCL)"
-__version__: str = "1.0.1"
+__version__: str = "2.0.0"
 __email__: str = "adam+python@northisup.com"
 
 __all__ = ["Plugin", "Visitor"]

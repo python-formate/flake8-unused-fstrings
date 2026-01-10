@@ -6,7 +6,7 @@ author: 'adam hitchcock'
 email: 'adam+python@northisup.com'
 username: 'python-formate'
 assignee: 'domdfcoding'
-version: '1.0.1'
+version: '2.0.0'
 license: 'ISCL'
 short_desc: 'Flake8 plugin to catch f-strings with no fields. '
 

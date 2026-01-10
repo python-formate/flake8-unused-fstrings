@@ -81,7 +81,7 @@ flake8-unused-fstrings
 .. |language| image:: https://img.shields.io/github/languages/top/python-formate/flake8-unused-fstrings
 	:alt: GitHub top language
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/python-formate/flake8-unused-fstrings/v1.0.1
+.. |commits-since| image:: https://img.shields.io/github/commits-since/python-formate/flake8-unused-fstrings/v2.0.0
 	:target: https://github.com/python-formate/flake8-unused-fstrings/pulse
 	:alt: GitHub commits since tagged version
 
