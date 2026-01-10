@@ -17,8 +17,10 @@ flake8-unused-fstrings
 
 	* - Tests
 	  - |actions_linux| |actions_windows| |actions_macos| |coveralls|
+	* - PyPI
+	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 	* - Activity
-	  - |commits-latest| |commits-since| |maintained|
+	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
 	* - QA
 	  - |codefactor| |actions_flake8| |actions_mypy|
 	* - Other
@@ -56,6 +58,22 @@ flake8-unused-fstrings
 	:target: https://www.codefactor.io/repository/github/python-formate/flake8-unused-fstrings
 	:alt: CodeFactor Grade
 
+.. |pypi-version| image:: https://img.shields.io/pypi/v/flake8-unused-fstrings
+	:target: https://pypi.org/project/flake8-unused-fstrings/
+	:alt: PyPI - Package Version
+
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/flake8-unused-fstrings?logo=python&logoColor=white
+	:target: https://pypi.org/project/flake8-unused-fstrings/
+	:alt: PyPI - Supported Python Versions
+
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/flake8-unused-fstrings
+	:target: https://pypi.org/project/flake8-unused-fstrings/
+	:alt: PyPI - Supported Implementations
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/flake8-unused-fstrings
+	:target: https://pypi.org/project/flake8-unused-fstrings/
+	:alt: PyPI - Wheel
+
 .. |license| image:: https://img.shields.io/github/license/python-formate/flake8-unused-fstrings
 	:target: https://github.com/python-formate/flake8-unused-fstrings/blob/master/LICENSE
 	:alt: License
@@ -74,6 +92,10 @@ flake8-unused-fstrings
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/flake8-unused-fstrings
+	:target: https://pypi.org/project/flake8-unused-fstrings/
+	:alt: PyPI - Downloads
+
 .. end shields
 
 Installation
@@ -81,13 +103,13 @@ Installation
 
 .. start installation
 
-``flake8-unused-fstrings`` can be installed from GitHub.
+``flake8-unused-fstrings`` can be installed from PyPI.
 
 To install with ``pip``:
 
 .. code-block:: bash
 
-	$ python -m pip install git+https://github.com/python-formate/flake8-unused-fstrings
+	$ python -m pip install flake8-unused-fstrings
 
 .. end installation
 
