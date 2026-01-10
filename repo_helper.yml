@@ -12,6 +12,7 @@ short_desc: 'Flake8 plugin to catch f-strings with no fields. '
 
 enable_conda: false
 enable_docs: false
+use_whey: true
 
 python_versions:
  - 3.8
