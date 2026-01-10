@@ -32,11 +32,9 @@ class Visitor(flake8_helper.Visitor):
 	AST node visitor for identifying f-strings with no fields.
 	"""
 
-	def check_joinedstring_has_formatted_value(self, node: ast.JoinedStr) -> bool:
-		return any(isinstance(value, ast.FormattedValue) for value in ast.walk(node))
-
 	def visit_JoinedStr(self, node: ast.JoinedStr) -> None:  # noqa: D102
-		is_good = self.check_joinedstring_has_formatted_value(node)
+		is_good = any(isinstance(value, ast.FormattedValue) for value in ast.walk(node))
+
 		if not is_good:
 			self.errors.append((
 					node.lineno,
