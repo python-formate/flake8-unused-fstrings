@@ -93,7 +93,7 @@ flake8-unused-fstrings
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/flake8-unused-fstrings
-	:target: https://pypi.org/project/flake8-unused-fstrings/
+	:target: https://pypistats.org/packages/flake8-unused-fstrings
 	:alt: PyPI - Downloads
 
 .. end shields
